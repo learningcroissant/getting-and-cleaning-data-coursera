@@ -5,7 +5,7 @@
 1. R/r_analysis -> path to R script
 2. README.md (this file) -> file describing the contect of the repo
 
-I didn't manage to finish a codeboook in time, although I am still working on it after the submission
+I didn't manage to finish a codeboook in time, although I am still working on it after the submission. My data set was also not printing correctly. I will do my beast to fix this code with some more research
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
