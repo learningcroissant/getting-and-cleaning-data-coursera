@@ -4,7 +4,8 @@
 
 1. R/r_analysis -> path to R script
 2. README.md (this file) -> file describing the contect of the repo
-3. CodeBook.md -> file describing data and variables
+
+I didn't manage to finish a codeboook in time, although I am still working on it after the submission
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
