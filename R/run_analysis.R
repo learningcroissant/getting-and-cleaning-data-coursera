@@ -96,7 +96,7 @@ library(plyr)
 
 fullData2 <- aggregate(. ~subject + activity, fullData, mean)
 fullData2 <- fullData2[order(fullData2$subject,fullData2$activity),]
-write.table(fullData2, file = "tidydata.txt",row.name=FALSE)
+write.table(fullData2, file = "fullData2.txt",row.name=FALSE)
 fullData2
 
 
