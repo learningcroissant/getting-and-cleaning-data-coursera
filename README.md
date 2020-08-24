@@ -2,10 +2,11 @@
 
 ## Repo Files
 
-1. R/r_analysis -> path to R script
+1. run_analysis.R -> R script
 2. README.md (this file) -> file describing the contect of the repo
+3. codebook_finalData.html -> codebook describing the transformations the data went through
+4. finalData.txt -> outfput of the final dataset
 
-I didn't manage to finish a codeboook in time, although I am still working on it after the submission. My data set was also not printing correctly. I will do my beast to fix this code with some more research
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
@@ -20,7 +21,7 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 1. Read all the relevant data from the folder to variables
 2. Combine all the data into one data set
-3. Using the dplyr package, use sapply to extract the standard deviation and means of the specified data
+3. Extract measurements for mean and std deviation using dplyr select function
 4. Read the activity labels from activity.txt and set the descriptive names to the data set
 5. Label the measurements in the dataset with descriptive names
 6. Create a 2nd dataset that aggreates all the data by finding the average of the subject and activty data
